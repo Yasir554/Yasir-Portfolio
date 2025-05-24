@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yasir - Personal Portfolio</title>
+
+    <!--- favicon-->
+    <link rel="shortcut icon" href="./images/Yasir-logo.png" type="image/png">
+
+    <!--- custom css link -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!--- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!--- MAIN-->
+    <main>
+        <!--- SIDEBAR-->
+        <aside class="sidebar" data-sidebar>
+            <div class="sidebar-info">
+                <figure class="avatar-box">
+                    <img src="./images/My-Picture.jpeg" alt="Yasir A." width="80">
+                </figure>
+                <div class="info-content">
+                    <h1 class="name" title="Lorenah M.">Yasir Abass Abdi</h1>
+                    <p class="title">Software Engineer</p>
+                </div>
+                <button class="info_more-btn" data-sidebar-btn>
+                    <span>Show Contacts</span>
+                    <ion-icon name="chevron-down"></ion-icon>
+                </button>
+            </div>
+            <div class="sidebar-info_more">
+                <div class="separator"></div>
+                <ul class="contacts-list">
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Email</p>
+                            <a href="mailto:lorayne911@gmail.com" title="opens email in new tab" class="contact-link"
+                                target="_blank">yasirabass554@gmail.com</a>
+                        </div>
+                    </li>
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="phone-portrait-outline"></ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Phone</p>
+                            <a href="tel:+254703668690" class="contact-link">+254(722) 448-603</a>
+                        </div>
+                    </li>
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Location</p>
+                            <address>Nairobi, Kenya</address>
+                        </div>
+                    </li>
+                </ul>
+                <div class="separator"></div>
+                <ul class="social-list">
+                    <li class="social-item">
+                        <a href="https://github.com/Yasir554" target="_blank" class="social-link">
+                            <ion-icon name="logo-github"></ion-icon>
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a href="https://www.linkedin.com/in/yasir-abass-608537352/" target="_blank" class="social-link">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a href="https://www.instagram.com/itz.him.yasir/" target="_blank" class="social-link">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a href="https://x.com/itz_him_yasir" target="_blank" class="social-link">
+                            <i class="fab fa-x-twitter"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+
+        <!--- Main-content -->
+        <div class="main-content">
+
+            <!--- NAVBAR -->
+            <nav class="navbar">
+                <ul class="navbar-list">
+                    <li class="navbar-item">
+                        <button class="navbar-link  active" data-nav-link>About</button>
+                    </li>
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link>Resume</button>
+                    </li>
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link>Projects</button>
+                    </li>
+                    <!-- <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link>Blog</button>
+                    </li> -->
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link>Contact</button>
+                    </li>
+                </ul>
+            </nav>
+
+
+            <!--- #ABOUT -->
+            <article class="about  active" data-page="about">
+                <header>
+                    <h2 class="h2 article-title">About me</h2>
+                </header>
+                <section class="about-text">
+                    <p>
+                        I'm a Full-Stack Web Developer passionate about building responsive, user-
+                        friendly web applications. I work with technologies like React, JavaScript,
+                        Python, and Flask to create seamless frontend and backend solutions.
+                    </p>
+                    <p>
+                        I enjoy writing clean code, planning projects effectively, and solving real-
+                        world problems through tech. I'm always learning and exploring new tools to
+                        improve performance, security, and scalability.
+                    </p>
+                </section>
+
+                <!--- What I do -->
+                <section class="service">
+                    <h3 class="h3 service-title">What i do best</h3>
+                    <ul class="service-list">
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="./images/icon-design.svg" alt="design icon" width="40">
+                            </div>
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Strategic Project Planning</h4>
+                                <p class="service-item-text">
+                                    Developing Comprehensive Project plans and Technical Documentation to support successful 
+                                    Design, Development, and Deployment of Full-Stack Web Applications.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="./images/icon-dev.svg" alt="Web development icon" width="40">
+                            </div>
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Web development</h4>
+                                <p class="service-item-text">
+                                    High-quality development of sites at the professional level.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="./images/UI_UX-icon.png" alt="UI/UX icon" width="40">
+                            </div>
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">UI/UX Design Consulting</h4>
+                                <p class="service-item-text">
+                                    Offering feedback and suggestions to improve user experience and interface clarity.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="./images/creative.png" alt="creative icon" width="40">
+                            </div>
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Creative Collaboration & Brainstorming</h4>
+                                <p class="service-item-text">
+                                    Assisting in early project stages with idea generation, feature planning,
+                                    or interface direction.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- certificates -->
+                <section class="testimonials">
+                    <h3 class="h3 testimonials-title">Certificates</h3>
+                    <ul class="testimonials-list has-scrollbar">
+                        <li class="testimonials-item">
+                            <div class="content-card" data-testimonials-item data-certificate-img="./images/">
+                                <figure class="testimonials-avatar-box">
+                                    <img src="./images/moringa-icon.png" alt="Moringa School" width="60" data-testimonials-avatar>
+                                </figure>
+                                <h4 class="h4 testimonials-item-title" data-testimonials-title>
+                                    Moringa School - Full Stack Software Engineering Certificate</h4>
+                                </h4>
+                                <div class="testimonials-text" data-testimonials-text>
+                                    <p>
+                                    I Acquired This Certificate during my time in Moringa School, where I learned
+                                    Full-Stack Web Development, including HTML, CSS, JavaScript, React, Python,
+                                    and Flask. The program emphasized project-based learning, enabling me to build
+                                    real-world applications and gain hands-on experience in software development.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="testimonials-item">
+                            <div class="content-card" data-testimonials-item data-certificate-img="./images/freecodecamp-certificate.png">
+                                <figure class="testimonials-avatar-box">
+                                    <img src="./images/freecodecamp-icon.jpg" alt="FreeCodeCamp" width="60" data-testimonials-avatar>
+                                </figure>
+                                <h4 class="h4 testimonials-item-title" data-testimonials-title>
+                                    Freecodecamp - Responsive Web Design Certificate
+                                </h4>
+                                <div class="testimonials-text" data-testimonials-text>
+                                    <p>
+                                        I earned this certificate from FreeCodeCamp, where I learned the fundamentals
+                                        of web design, including HTML, CSS, and responsive design principles. The
+                                        program emphasized hands-on projects, allowing me to create visually appealing
+                                        and user-friendly web pages.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+
+                <!--certificates modal -->
+                <div class="modal-container" data-modal-container>
+                    <div class="overlay" data-overlay></div>
+                    <section class="testimonials-modal">
+                        <button class="modal-close-btn" data-modal-close-btn>
+                            <ion-icon name="close-outline"></ion-icon>
+                        </button>
+                        <div class="modal-img-wrapper">
+                            <figure class="modal-avatar-box">
+                                <img src="./images/moringa-icon.png" alt="Moringa School" width="80" data-modal-img>
+                            </figure>
+                        </div>
+                        <div class="modal-content">
+                            <h4 class="h3 modal-title" data-modal-title>Moringa School - Full Stack Software Engineering Certificate</h4>
+                            <div data-modal-text>
+                                <p>
+                                    I Acquired This Certificate during my time in Moringa School, where I learned
+                                    Full-Stack Web Development, including HTML, CSS, JavaScript, React, Python,
+                                    and Flask. The program emphasized project-based learning, enabling me to build
+                                    real-world applications and gain hands-on experience in software development.
+                                </p>
+                            </div>
+                            <div class="certificate-img">
+                                <img data-certificate-img-modal src="./images/" alt="Certificate" style="width: 100%; margin-top: 2rem; border-radius: 10px;">
+                            </div>
+                        </div>
+                    </section>
+            </article>
+
+
+            <!--- #RESUME -->
+            <article class="resume" data-page="resume">
+                <header>
+                    <h2 class="h2 article-title">Resume</h2>
+                </header>
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box">
+                            <ion-icon name="book-outline"></ion-icon>
+                        </div>
+                        <h3 class="h3">Education</h3>
+                    </div>
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Moringa School - Full Stack Software Engineering</h4>
+                            <span>2024 — Current</span>
+                            <p class="timeline-text">
+                                Moringa School graduate specializing in Software Development with 
+                                expertise in web technologies.
+                            </p>
+                        </li>
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Machakos School - Secondary School Education</h4>
+                            <span>2020 — 2024</span>
+                            <p class="timeline-text">
+                                Machakos School is an institution where i was able to complete my high school education,
+                                gaining foundational knowledge in various subjects and developing critical thinking skills.
+                            </p>
+                        </li>
+                    </ol>
+                </section>
+
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box">
+                            <ion-icon name="book-outline"></ion-icon>
+                        </div>
+                        <h3 class="h3">Experience</h3>
+                    </div>
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Junior Software Developer - Hamsy Limited </h4>
+                            <span>February 2025 — Present</span>
+                            <p class="timeline-text">
+                                - Collaborated with senior developers to build and maintain full-stack web applications.<br>
+                                - Contributed to frontend features using React and backend logic with Node.js/Python.<br>
+                                - Participated in code reviews, bug fixing, and feature implementation across sprints.<br>
+                                - Assisted in integrating APIs and ensuring responsive, user-friendly UI/UX design.<br>
+                                - Actively learned and adapted to new technologies and best practices in agile teams.
+                            </p>
+                        </li>
+                        <!---
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Compliance Manager, FCR SOLUTIONS LTD</h4>
+                            <span>September 2021 — January 2022</span>
+                            <p class="timeline-text">
+                                - Developed and implemented compliance frameworks for a data mortgage company.<br>
+                                - Conducted risk assessments and audits to ensure regulatory adherence.<br>
+                                - Led team training on compliance policies and procedures.<br>
+                                - Collaborated with management to implement compliance-related changes.
+                            </p>
+                        </li>
+                        --->
+                    </ol>
+                </section>
+
+                <section class="skill">
+                    <h3 class="h3 skills-title">My skills</h3>
+                    <ul class="skills-list content-card">
+                        <li class="skills-item">
+                            <h5 class="h5">Web development</h5>
+                            <div class="title-wrapper">
+                                <ul class="timeline-text">
+                                    <li>Frontend Development: HTML, CSS, Tailwind, JavaScript, React</li>
+                                    <li>Backend : Python, Flask, SQLite</li>
+                                    <li>Deployment : Vercel, Render, Heroku, Netlify</li>
+                                </ul>
+                                <data value="100"><strong></strong></data>
+                            </div>
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-fill" style="width: 100%;"></div>
+                            </div>
+                        </li>
+                        <li class="skills-item">
+                            <h5 class="h5">Branding</h5>
+                            <div class="title-wrapper">
+                                <ul class="timeline-text">
+                                    <li>Project Planning, Documentation and Presentation</li>
+                                    <li>Teamwork, Communication and Leadership</li>
+                                </ul>
+                                <data value="100"><strong></strong></data>
+                            </div>
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-fill" style="width: 100%;"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+
+
+            <!--- Work -->
+            <article class="portfolio" data-page="projects">
+                <header>
+                    <h2 class="h2 article-title">Projects</h2>
+                </header>
+
+                <section class="projects">
+                    <ul class="filter-list">
+                        <li class="filter-item">
+                            <button class="active" data-filter-btn>All</button>
+                        </li>
+                        <li class="filter-item">
+                            <button data-filter-btn>Personal Projects</button>
+                        </li>
+                        <li class="filter-item">
+                            <button data-filter-btn>Group Projects</button>
+                        </li>
+                    </ul>
+
+                    <div class="filter-select-box">
+                        <button class="filter-select" data-select>
+                            <div class="select-value" data-select-value>Select category</div>
+                            <div class="select-icon">
+                                <ion-icon name="chevron-down"></ion-icon>
+                            </div>
+                        </button>
+                        <ul class="select-list">
+                            <li class="select-item">
+                                <button data-select-item>All</button>
+                            </li>
+                            <li class="select-item">
+                                <button data-select-item>Personal Projects</button>
+                            </li>
+                            <li class="select-item">
+                                <button data-select-item>Group Projects</button>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <ul class="project-list"> 
+                        <li class="project-item  active" data-filter-item data-category="group projects">
+                            <a href="https://github.com/Yasir554/Moringa-Daily.dev-Frontend-.git" target="_blank">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="./images/Moringa-Daily.dev.png" alt="docs" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">Moringa Daily.dev - Tech Blog Full-Stack Application</h3>
+                                <p class="project-category">Group Project</p>
+                            </a>
+                        </li>
+                        <li class="project-item  active" data-filter-item data-category="group projects">
+                            <a href="https://github.com/Yasir554/CourseForge.git" target="_blank">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="./images/CourseForge.png" alt="docs" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">CourseForge - Online Course Creation Platform Full-Stack Application</h3>
+                                <p class="project-category">Group Project</p>
+                            </a>
+                        </li>
+                        <li class="project-item  active" data-filter-item data-category="personal projects">
+                            <a href="https://github.com/Yasir554/Library-Mangement-System.git" target="_blank">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="./images/Library Management System.jpeg" alt="docs" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">Library Mangement System - Python-based CLI Application</h3>
+                                <p class="project-category">Personal Project</p>
+                            </a>
+                        </li>
+                        <li class="project-item  active" data-filter-item data-category="personal projects">
+                            <a href="https://github.com/Yasir554/ShopBag-Online-Shop.git" target="_blank">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="./images/ShopBag-Online-Shop.png" alt="docs" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">ShopBag Online Shop - React Application</h3>
+                                <p class="project-category">Personal Project</p>
+                            </a>
+                        </li>
+                        <li class="project-item  active" data-filter-item data-category="personal projects">
+                            <a href="https://github.com/Yasir554/Open-Book-Library-Finder.git" target="_blank">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="./images/Open-Book-Library-Finder.png" alt="docs" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">Open Book Library Finder - JavaScript Application</h3>
+                                <p class="project-category">Personal Project</p>
+                            </a>
+                        </li>
+                        <li class="project-item  active" data-filter-item data-category="group projects">
+                            <a href="https://github.com/Jeyceejeyka/Crpto-Currency-Dashboard.git" target="_blank">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="./images/Crypto-Currency-Dashboard.png" alt="docs" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">Crypto Portfolio Tracker & Dashboard - React Application</h3>
+                                <p class="project-category">Group Project</p>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+
+
+
+            <!--- #BLOG 
+            <article class="blog" data-page="blog">
+                <header>
+                    <h2 class="h2 article-title">Blog</h2>
+                </header>
+                <section class="blog-posts">
+                    <ul class="blog-posts-list">
+                        <li class="blog-post-item">
+                            <a href="https://medium.com/@skylar_lorena/behind-the-scenes-of-a-react-native-app-a-deep-dive-f8d2d852f3f5"
+                                target="_blank">
+                                <figure class="blog-banner-box">
+                                    <img src="./images/project-4.png" alt="React Native logo" loading="lazy">
+                                </figure>
+                                <div class="blog-content">
+                                    <div class="blog-meta">
+                                        <p class="blog-category">Mobile development</p>
+                                        <span class="dot"></span>
+                                        <time datetime="2022-02-23">July 10, 2024</time>
+                                    </div>
+                                    <h3 class="h3 blog-item-title">Behind the Scenes of a React Native App: A Deep Dive
+                                    </h3>
+                                    <p class="blog-text">
+                                        Imagine your React Native app as a bustling kitchen. Instead of chefs, we have
+                                        multiple threads, each playing a crucial
+                                        role. Let’s peek into the kitchen and see how these apps come to life! ‍
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="blog-post-item">
+                            <a href="https://medium.com/@skylar_lorena/from-link-lost-to-link-master-how-can-you-debug-broken-links-and-images-in-a-web-application-9163720d3fc4"
+                                target="_blank">
+                                <figure class="blog-banner-box">
+                                    <img src="./images/broken-link-1664358616.jpg" alt="DEbugging broken urls"
+                                        loading="lazy">
+                                </figure>
+                                <div class="blog-content">
+                                    <div class="blog-meta">
+                                        <p class="blog-category">Web development</p>
+                                        <span class="dot"></span>
+                                        <time datetime="2022-02-23">Feb 19, 2024</time>
+                                    </div>
+                                    <h3 class="h3 blog-item-title">
+                                        From Link-Lost to Link-Master: How Can You Debug
+                                        Broken Links and Images in a Web Application?
+                                    </h3>
+                                    <p class="blog-text">
+                                        Through trial and error (and maybe a few tears), I’ve unearthed some
+                                        battle-tested tips to turn you from link-lost to
+                                        link-master.
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="blog-post-item">
+                            <a href="https://medium.com/@skylar_lorena/a-beginners-guide-to-the-command-line-interface-cli-f11b44046831"
+                                target="_blank">
+                                <figure class="blog-banner-box">
+                                    <img src="./images/que-es-el-cli-1970616872.jpg" alt="The CLI"
+                                        loading="lazy">
+                                </figure>
+                                <div class="blog-content">
+                                    <div class="blog-meta">
+                                        <p class="blog-category">Web Development</p>
+                                        <span class="dot"></span>
+                                        <time datetime="2022-02-23">May 18, 2022</time>
+                                    </div>
+                                    <h3 class="h3 blog-item-title">A Beginners Guide to the Command Line Interface (CLI)
+                                    </h3>
+                                    <p class="blog-text">
+                                        Casual/new users would prefer a GUI because it is easier and more comfortable
+                                        whereas experienced users and
+                                        professionals are more likely to use a CLI because of the benefits it has, such
+                                        as remote access and the ability to run
+                                        scripts. Interaction ultimately depends on the user and the purpose behind using
+                                        the machine. Whatever the case, being
+                                        familiar with CLI is essential to professionals in tech.
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </article>-->
+
+            <!--- CONTACT -->
+
+            <article class="contact" data-page="contact">
+                <header>
+                    <h2 class="h2 article-title">Contact</h2>
+                </header>
+                <section class="mapbox" data-mapbox>
+                    <figure>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127641.17044271369!2d36.764995685554986!3d-1.30303597808607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1172d84d49a7%3A0xf7cf0254b297924c!2sNairobi!5e0!3m2!1sen!2ske!4v1721408291666!5m2!1sen!2ske"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </figure>
+                </section>
+               <section class="my-accounts">
+                <h3 class="h3 form-title">My Accounts</h3>
+                <ul class="social-list" style="margin-top: 20px; display: flex; gap: 20px; flex-wrap: wrap;">
+                    <li class="social-item">
+                        <a href="https://github.com/Yasir554" target="_blank" class="social-link">
+                            <ion-icon name="logo-github"></ion-icon>
+                            <span style="margin-left: 8px;">GitHub</span>
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a href="https://www.linkedin.com/in/yasir-abass-608537352/" target="_blank" class="social-link">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                            <span style="margin-left: 8px;">LinkedIn</span>
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a href="https://www.instagram.com/itz.him.yasir/" target="_blank" class="social-link">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                            <span style="margin-left: 8px;">Instagram</span>
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a href="https://x.com/itz_him_yasir" target="_blank" class="social-link">
+                            <i class="fab fa-x-twitter"></i>
+                            <span style="margin-left: 8px;">Twitter</span>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            </article>
+        </div>
+    </main>
+
+    <!--- custom js link -->
+    <script src="./script.js"></script>
+
+    <!--- ionicon link-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

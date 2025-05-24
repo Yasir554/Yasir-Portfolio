@@ -1,0 +1,179 @@
+                <!--- testimonials -->
+                <section class="testimonials">
+                    <h3 class="h3 testimonials-title">Testimonials</h3>
+                    <ul class="testimonials-list has-scrollbar">
+                        <li class="testimonials-item">
+                            <div class="content-card" data-testimonials-item>
+                                <figure class="testimonials-avatar-box">
+                                    <img src="./images/alex.jpeg" alt="Alex Baer" width="60"
+                                        data-testimonials-avatar>
+                                </figure>
+                                <h4 class="h4 testimonials-item-title" data-testimonials-title>Alex Baer, Senior
+                                    Cybersecurity Consultant-
+                                    Sogeti-Ohio</h4>
+                                <div class="testimonials-text" data-testimonials-text>
+                                    <p>
+                                    “I have known Lorenah professionally for many years now. I have always known her to be impressive in project management
+                                    and software documentation, as well as in her career as a teacher to her many students. She is very detail oriented and
+                                    can solve anything she puts her mind to. Additionally, I offered her a Cybersecurity Mentorship via EC-Council where she
+                                    continues to expand her expertise in Information Technology, within the fields of cybersecurity and risk management.
+                                    Whether it is for her skills in mobile application development, professional management, or teaching, I highly recommend
+                                    Lorenah in any role you are seeking.”
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="testimonials-item">
+                            <div class="content-card" data-testimonials-item>
+                                <figure class="testimonials-avatar-box">
+                                    <img src="./images/avatar-2.png" alt="Liz Oyugi" width="60"
+                                        data-testimonials-avatar>
+                                </figure>
+                                <h4 class="h4 testimonials-item-title" data-testimonials-title>Liz Oyugi, Supervisor
+                                    - African Cotton Industries</h4>
+                                <div class="testimonials-text" data-testimonials-text>
+                                    <p>
+                                        "Lorenah is a fantastic developer and mentor. Her training has significantly
+                                        improved our team's skills. Highly
+                                        recommend!"
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="testimonials-item">
+                            <div class="content-card" data-testimonials-item>
+                                <figure class="testimonials-avatar-box">
+                                    <img src="./images/brian.jpeg" alt="Brian Kiiru" width="60"
+                                        data-testimonials-avatar>
+                                </figure>
+                                <h4 class="h4 testimonials-item-title" data-testimonials-title>Brian Kiiru, Research
+                                    Software Engineer- University of Nottingham</h4>
+                                <div class="testimonials-text" data-testimonials-text>
+                                    <p>
+                                        "Great developer, has client's needs at heart and puts them first!"
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+
+                <!--- testimonials modal -->
+                <div class="modal-container" data-modal-container>
+                    <div class="overlay" data-overlay></div>
+                    <section class="testimonials-modal">
+                        <button class="modal-close-btn" data-modal-close-btn>
+                            <ion-icon name="close-outline"></ion-icon>
+                        </button>
+                        <div class="modal-img-wrapper">
+                            <figure class="modal-avatar-box">
+                                <img src="./images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+                            </figure>
+                            <img src="./images/icon-quote.svg" alt="quote icon">
+                        </div>
+                        <div class="modal-content">
+                            <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+                            <time datetime="2021-06-14">14 June, 2023</time>
+                            <div data-modal-text>
+                                <p>
+                                    Richard was hired to create a corporate identity. We were very pleased with the work
+                                    done. She has a
+                                    lot of experience
+                                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet,
+                                    ullamcous cididt
+                                    consectetur adipiscing
+                                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </article>
+
+
+
+
+
+
+
+
+
+<!-- Certificates Section (Using Testimonials Styling) -->
+<section class="testimonials">
+    <h3 class="h3 testimonials-title">Certificates</h3>  <!-- Changed title -->
+    <ul class="testimonials-list has-scrollbar">
+        <!-- Certificate 1 -->
+        <li class="testimonials-item">
+            <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                    <img src="./images/aws-logo.png" alt="AWS Certified" width="60" data-testimonials-avatar>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>AWS Certified Cloud Practitioner</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                        Issued by <strong>Amazon Web Services (AWS)</strong><br>
+                        <time datetime="2023-05-15">May 2023</time>
+                    </p>
+                </div>
+            </div>
+        </li>
+
+        <!-- Certificate 2 -->
+        <li class="testimonials-item">
+            <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                    <img src="./images/google-logo.png" alt="Google Certified" width="60" data-testimonials-avatar>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Google Data Analytics Professional</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                        Issued by <strong>Google</strong><br>
+                        <time datetime="2022-11-10">November 2022</time>
+                    </p>
+                </div>
+            </div>
+        </li>
+
+        <!-- Certificate 3 -->
+        <li class="testimonials-item">
+            <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                    <img src="./images/cisco-logo.png" alt="Cisco Certified" width="60" data-testimonials-avatar>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Cisco Certified Network Associate (CCNA)</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                        Issued by <strong>Cisco</strong><br>
+                        <time datetime="2021-08-20">August 2021</time>
+                    </p>
+                </div>
+            </div>
+        </li>
+    </ul>
+</section>
+
+<!-- Certificates Modal (Using Testimonials Styling) -->
+<div class="modal-container" data-modal-container>
+    <div class="overlay" data-overlay></div>
+    <section class="testimonials-modal">
+        <button class="modal-close-btn" data-modal-close-btn>
+            <ion-icon name="close-outline"></ion-icon>
+        </button>
+        <div class="modal-img-wrapper">
+            <figure class="modal-avatar-box">
+                <!-- Full certificate image (replace with your actual file) -->
+                <img src="./images/aws-certificate-full.jpg" alt="AWS Certificate" width="300" data-modal-img>
+            </figure>
+        </div>
+        <div class="modal-content">
+            <h4 class="h3 modal-title" data-modal-title>AWS Certified Cloud Practitioner</h4>
+            <div data-modal-text>
+                <p>
+                    <strong>Issuer:</strong> Amazon Web Services (AWS)<br>
+                    <strong>Date:</strong> <time datetime="2023-05-15">May 2023</time><br>
+                    <strong>Skills Validated:</strong> Cloud computing, AWS core services, security.
+                </p>
+            </div>
+        </div>
+    </section>
+</div>
