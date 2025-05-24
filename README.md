@@ -5,7 +5,7 @@ Welcome to my personal portfolio website! This is where I showcase my skills, pr
 
 ---
 
-## 🚀 Live Demo
+## 🚀 Live Link
 
 👉 **[View Portfolio Online](#)**
 
